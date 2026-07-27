@@ -42,6 +42,9 @@ head:
    - 永续合约「投资组合的」API 密钥名称「填写到「Perpetuals API Key」
    - 永续合约「投资组合的」私钥「填写到「Perpetuals Private Key」
 
+> [!NOTE]
+> 仅支持 ECDSA（旧版本 SDK）生成的 API Key，不支持 Ed25519 格式的新 API Key。
+
 5. 只支持 Coinbase International，不支持 US。
 6. Coinbase 的永续合约杠杆倍数设置后并不会对已有仓位造成影响，需要下一次下单时才会生效。
 7. Coinbase 的永续合约资金费收支历史记录（左边栏）不会展示。
