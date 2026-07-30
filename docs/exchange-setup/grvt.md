@@ -9,9 +9,9 @@ head:
 
 # Grvt
 
-邀请码：`TAOLI`
+返佣：20%
 
-积分增加 30%，手续费减少 20%
+邀请码：`TAOLI`
 
 邀请链接：[https://grvt.io/exchange/sign-up?ref=TAOLI](https://grvt.io/exchange/sign-up?ref=TAOLI)
 
