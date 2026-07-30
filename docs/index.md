@@ -78,9 +78,9 @@ Taoli Tools 是一个半自动化的 U 本位对冲套利工具，其核心功�
 | -------------------------------------------- | -------- | ---- | ------ |
 | [Hyperliquid](exchange-setup/hyperliquid.md) | ✅       | ✅   | ✅     |
 | [Aster](exchange-setup/aster.md)             | ✅       | ✅   | ✅     |
-| [Ondo Perps](exchange-setup/ondo-perps.md)   | ✅       |      |        |
 | [Lighter](exchange-setup/lighter.md)         | ✅       | ✅   |        |
-| [Grvt](exchange-setup/grvt.md)               | ✅       |      | ✅     |
+| [Grvt](exchange-setup/grvt.md)               | ✅       | ✅   | ✅     |
+| [Ondo Perps](exchange-setup/ondo-perps.md)   | ✅       |      |        |
 | [Ethereal](exchange-setup/ethereal.md)       | ✅       |      |        |
 | [Paradex](exchange-setup/paradex.md)         | ✅       |      | ✅     |
 | [Pacifica](exchange-setup/pacifica.md)       | ✅       |      | ✅     |
