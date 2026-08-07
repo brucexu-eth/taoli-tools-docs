@@ -43,7 +43,7 @@ head:
   - Language：语言
   - Modifier Key：自定义修饰键，在交易页面按下对应按键后，会出现额外的功能
   - Display FPS：价格更新显示频率。只影响显示，不影响差价计算
-  - Loop Interval：Loop 时两笔下单之间的间隔。每个 Pair 内下单都是串行的，如果订单从发送到确认的时间超过了这个设置的间隔，则下一笔订单会立即发送。也就是说：`实际下单间隔=max(从下单到确认所需的时间,Loop Interval)`
+  - Loop Interval：Loop 时两笔下单之间的间隔。每个 Pair 内下单都是串行的，该间隔表示两单之间的最小间隔。
   - P&L High-performance DB：为 P&L 启用高性能数据库，只支持 Chrome，Edge 和 Firefox 浏览器。勾选后，一个浏览器中不可以同时打开两个版本不一致的网页，否则可能导致数据库卡住。
 - 其他
   ![image.png](./image-10.png)
