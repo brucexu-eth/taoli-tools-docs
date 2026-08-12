@@ -9,7 +9,7 @@ head:
 
 # 1inch
 
-[dApp 1inch - DeFi / DEX aggregator on Ethereum, Binance Smart Chain, Optimism, Polygon, Arbitrum](https://app.1inch.io/)
+[https://1inch.com/](https://1inch.com/)
 
 > [!WARNING]
 > 因 1inch API 限制，必须解除浏览器的跨域限制才可以使用，教程在 [解除浏览器跨域限制](../disable-browser-cors/)
@@ -26,5 +26,5 @@ head:
 - 买一卖一价格始终相等。同一个币选不同的 U，价格可能不一样。
 - 只支持 ERC20 标准代币，不支持原生代币，可以使用包装过的原生代币（如 WETH、WAVAX 等）。
 - 只支持市价单，不支持限价单，选择限价单时仍然是下市价单。
-- 首次交易某个 token 时候会自动 Approve Unlimited 给 [1inch 的 AggregationRouterV6 合约](https://portal.1inch.dev/documentation/contracts/aggregation-protocol/aggregation-introduction)。
+- 首次交易某个 token 时候会自动 Approve Unlimited 给 [1inch 的 Aggregation executors 合约](https://business.1inch.com/portal/documentation/aqua/reference/verified-contract-addresses.md)。
 - [DEX 常见问题](../dex-faq/)
