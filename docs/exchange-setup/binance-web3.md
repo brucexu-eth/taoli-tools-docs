@@ -13,7 +13,7 @@ head:
 
 邀请链接：[https://web3.binance.com/referral?ref=TAOLITOOLS](https://web3.binance.com/referral?ref=TAOLITOOLS)
 
-Binance Web3 支持的链：[https://web3.binance.com/en/dev-docs/products/trading-api/supported-chains](https://web3.binance.com/en/dev-docs/products/trading-api/supported-chains)
+Binance Web3 支持的链：[https://web3.binance.com/zh-CN/dev-docs/products/trading-api/supported-chains](https://web3.binance.com/zh-CN/dev-docs/products/trading-api/supported-chains)
 
 实际支持的链是 Taoli Tools 支持的链和 Binance Web3 支持的链的交集
 
@@ -22,7 +22,7 @@ Binance Web3 支持的链：[https://web3.binance.com/en/dev-docs/products/tradi
 3. 在对应链的钱包中存入对应的 gas，存入 USDC 或 USDT 作为资金。
 4. 设置说明：
    1. API Key 和 API Secret：
-      - 在 [https://web3.binance.com/en/dev-portal/project](https://web3.binance.com/en/dev-portal/project) 创建 Project 并申请 API。
+      - 在 [https://web3.binance.com/zh-CN/dev-portal/project](https://web3.binance.com/zh-CN/dev-portal/project) 创建 Project 并申请 API。
       - API Key 和你用来申请 API Key 的钱包没有绑定关系。申请 API Key 的钱包里不需要存入资金。
       - 用来申请 API Key 的钱包，和用来下单的钱包之间，没有关系。
    2. Quote Interval：询价频率，详见下文。
@@ -36,9 +36,9 @@ Binance Web3 支持的链：[https://web3.binance.com/en/dev-docs/products/tradi
   1. Quote Interval 毫秒数 ≥ Binance Web3 Ticker 数量 \* 400
      > [!TIP]
      > 上面是不触发限速的下限，实测贴着这个值仍会偶尔限速，建议按 Ticker 数量 \* 500 起填，最开始只使用一个 Pair。
-- 目前只能填一组 API。除了每个接口 5 次/秒以外，还有每个 API Key 每分钟 1200 次、每个账号每分钟 6000 次的限制，因此同一个账号下多申请几个 Project 并不能突破账号总量。详见 [限速说明](https://web3.binance.com/en/dev-docs/authentication)。
+- 目前只能填一组 API。除了每个接口 5 次/秒以外，还有每个 API Key 每分钟 1200 次、每个账号每分钟 6000 次的限制，因此同一个账号下多申请几个 Project 并不能突破账号总量。详见 [限速说明](https://web3.binance.com/zh-CN/dev-docs/authentication)。
 - 只支持市价单，不支持限价单，选择限价单时仍然是下市价单。
-- 首次交易某个 ERC20 Token 时候会自动 Approve Unlimited 给 [Binance Web3 的聚合器合约](https://web3.binance.com/en/dev-docs/catalog/web3-wallet/api/rest-api/trading-api#get-erc20-approve-transaction)。
+- 首次交易某个 ERC20 Token 时候会自动 Approve Unlimited 给 [Binance Web3 的聚合器合约](https://web3.binance.com/zh-CN/dev-docs/catalog/web3-wallet/api/rest-api/trading-api#get-erc20-approve-transaction)。
 - 不支持美股代币（Ondo、BStock 等），这类代币走的是 RFQ 报价，需要另外的签名下单流程。
 - Pair 的 Size 参数的改变会影响报价，从而影响差价。不填 Size 默认是 100。
 - [DEX 常见问题](../dex-faq/)
