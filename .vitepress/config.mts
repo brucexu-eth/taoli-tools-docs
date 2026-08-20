@@ -266,6 +266,7 @@ export default defineConfig({
           { text: "设置页面", link: "/settings-page-guide" },
           { text: "交易页面", link: "/trading-page-guide" },
           { text: "下单操作", link: "/order-operations" },
+          { text: "快捷配对", link: "/quick-pairing" },
           { text: "风险提示", link: "/risk-warning" },
         ],
       },
