@@ -29,6 +29,6 @@ head:
 4. 打开「API」页面 [https://www.okx.com/account/my-api](https://www.okx.com/account/my-api)
 5. 点击「创建 API Keys」，权限选择「读取」和「交易」
 
-   ![image.png](okx/image-2.png)
+   ![image.png](okx/image-3.jpg)
 
 6. 永续合约只支持全仓保证金。
