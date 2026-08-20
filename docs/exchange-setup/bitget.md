@@ -22,7 +22,7 @@ Bitget Wallet Card 邀请码：`1t5Nzd`
 > [!WARNING]
 > 因 Bitget API 限制，必须解除浏览器的跨域限制才可以使用，教程在 [解除浏览器跨域限制](../disable-browser-cors/)
 
-1. 打开 USDT 和 USDC 合约，比如 [https://www.bitget.comfutures/usdt/BTCUSDT](https://www.bitget.com/futures/usdt/BTCUSDT) 和 [https://www.bitget.comfutures/usdt/BTCUSDC](https://www.bitget.com/futures/usdt/BTCUSDC)（需要分别设置）
+1. 分别打开 USDT 本位合约和 USDC 本位合约页面，比如 [BTCUSDT 合约](https://www.bitget.com/futures/usdt/BTCUSDT) 和 [BTCPERP 合约](https://www.bitget.com/futures/usdc/BTCPERP)。两种合约需要分别设置。
 2. 点击右侧齿轮按钮
 3. 按照下图设置。持仓模式：单向持仓。
 
