@@ -9,7 +9,7 @@ head:
 
 # Binance Web3
 
-返佣：20%
+手续费减免：20%（只影响币安 App 内钱包 Swap 费率，API 完全免费）
 
 邀请链接：[https://web3.binance.com/referral?ref=TAOLITOOLS](https://web3.binance.com/referral?ref=TAOLITOOLS)
 
